@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.branding {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -52px;
+    z-index: 1;
+}
+
+.gameLogo {
+    width: 93px;
+    height: 82px;
+}
+
+.brandLogo {
+    width: 102px;
+    aspect-ratio: 1;
+}
+
+.gameHeader {
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    justify-content: center;
+}
+
+.gameBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.board {
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 16px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    width: 85px;
+    border: 0.5px solid black;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 5px 5px 15px #0000001a;
+    background-color: white;
+}
+
+.startGame {
+    background-image: url("./assets/start.png");
+    position: absolute;
+    border: 0px;
+    background-size: 100%;
+    width: 113px;
+    height: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.rxnContainer {
+    position: absolute;
+    z-index: 1;
+}
+
+.rxnImg {
+    width: 80px;
+    margin-top: -40px;
+}
+
+.gameResultNotWin {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.gameResultNotWinText {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 100%;
+    color: white;
+    font-family: Sora;
+    font-size: 32px;
+}
+
+.chancesLeft {
+    font-family: Poppins;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.gameFinishBgNotWin {
+    width: 255px;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameRestart {
+    background-image: url("./assets/gameRestart.png");
+    position: absolute;
+    background-size: 100%;
+    width: 183.5px;
+    height: 43px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 165px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bodyBottom {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.bodyBottomImg {
+    width: 303px;
+    margin-top: -8px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.resultInfo {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.gameFooter {
+    width: 303px;
+    margin-top: -12px;
+    border-radius: 0 0 12px 12px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+/* Add more styles as needed */
+
+.brandAdImg {
+    width: 303px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0px;
+}
+
+.wishes {
+    height: 30px;
+    width: 303px;
+    margin-top: -4px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishesText {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Sora;
+    color: #73006b;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.star {
+    width: 20px;
+    aspect-ratio: 1;
+    margin: auto;
+}
+
+.congratsBG {
+    width: 305px;
+}
+
+.discountAmount{
+  left: 0;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  position: absolute;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.discountCode{
+  left: 0;
+  color: white;
+  font-family: Sora;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.hr{
+  position: absolute;
+  margin-top: 125px;
+}
+
+.discountInstruction{
+  color: white;
+  font-family: Poppins;
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 145px;
+  font-weight: 300;
+}
